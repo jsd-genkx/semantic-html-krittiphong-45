@@ -4,19 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>John Doe Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+   
+  </style>
 </head>
 <body>
   <header>
-    <h1>John Doe</h1>
-    <p>web Developer</p>
+    <h1 style="color:blue; background-color:yellow">John Doe</h1>
+    <p style="background-color:salmon;">web Developer</p>
   </header>
   <main>
-    <section>
+    <section id="about" class="box">
       <h2>About Me</h2>
       <img src="https://introduction-to-web-application.vercel.app/profile.jpg" alt="john doe" width ="200px" height="200px"/>
       <p>I am a passionate web developer with experience in HTML,CSS,JavaScript.</p>
     </section>
-    <search>
+    <search id="experience" class="box">
       <h2>Experience</h2>
       <h3>Web Developer</h3>
       <p>XYZ Company - June 2020 to Present
@@ -26,13 +30,13 @@
         </ul>
       </p>
     </search>
-    <search>
+    <search id="education" class="box">
       <h2>Education</h2>
       <h3>Bachelor of Science in Chemistry</h3>
       <P>ABC University - Graduated in 2019</P>
     </search>
   </main>
-  <footer>
+  <footer id="contact" class="box">
     <h2>Contact Me</h2>
     <p>Email: john.doe@example.com</p>
     <p>Phone: +1234567890</p>

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* RESET CSS */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* CSS */
+body {
+    font-family: "Inter", sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container{
+  min-height: 20dvh;
+  width: 250px;
+  background-color:rgba(25, 105, 255, 0.745) ;
+  box-shadow:2px 2px 5px rgb(34, 34, 34) ;
+  border-radius: 16px;
+  padding:10px;
+  margin-top:32px;
+}
+
+h1{
+  text-align: center;
+  color:white;
+}
+
+.form_box{
+  /* border:solid black 1px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap:1rem;
+}
+
+.box{
+  color:#ffffff;
+  /* border:solid black 1px; */
+}
+
+#email,#password{
+  height: 32px;
+  width: auto;
+  text-align: center;
+}
+
+#submit{
+  border:none;
+  height:1rem;
+  width: 4rem;
+  font-size: 0.5rem;
+  background-color:#1f1f1f;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+:hover#submit{
+    box-shadow:2px 2px 5px rgb(34, 34, 34) ;
+  }
+
+:active#submit{
+  background-color: #0080b3;
+}
+.box3{
+  color:white;
+
+}
+
+.text{
+  font-size: 0.5rem;
+  color: aliceblue;
+}
+
+.text1{
+    margin-top:10px ;
+    a{
+    color: #1f1f1f;
+    font-size: 0.5rem;
+    text-decoration: none;
+  }
+}
+.text2{
+    a{
+    color: #1f1f1f;
+    font-size: 0.5rem;
+    text-decoration: none;
+  }
+}
